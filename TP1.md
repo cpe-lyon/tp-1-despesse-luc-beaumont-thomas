@@ -48,8 +48,8 @@ Cela ne fonctionne pas car ```cd``` est une commande interne a l'OS est n'est pa
 **7. à partir de votre dossier personnel, créez l’arborescence suivante**  
 
 ```
-mkdir -p {Dossier1,Dossier2/{Dossier2.1,Dossier2.2}}
-touch Dossier2/Dossier2.2/{fichier2,fichier3}
-touch Dossier1/fichier1
+$ mkdir -p {Dossier1,Dossier2/{Dossier2.1,Dossier2.2}}
+$ touch Dossier2/Dossier2.2/{fichier2,fichier3}
+$ touch Dossier1/fichier1
 ```
 

@@ -66,5 +66,6 @@ On ne peut pas supprimer un dossier avec la commande rm sans utiliser une option
 On a une erreur expliquant que le dossier n'est pas vide.
 
 **11. comment supprimer en une seule commande Dossier2 et son contenu?**
+
 ``` rm -r Dossier2 ```
 

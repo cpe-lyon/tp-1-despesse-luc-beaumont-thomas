@@ -16,23 +16,29 @@ Dans le man taper ```/motRecherché```
 
 **4. Chaque section du manuel a une première page, qui présente le contenu de la section. Aﬀicher la première page de la section 6; de quoi parle cette section?**
 
-``man 6 intro`` La page parle des jeux et des fonctionnalités amusante dispo sur l'OS.
+```man 6 intro``` La page parle des jeux et des fonctionnalités amusante dispo sur l'OS.
 
 ### Navigation dans l’arborescence des fichiers
 **1. allez dans le dossier /var/log**
 
- ``cd /var/log/``
+ ```cd /var/log/```
  
 **2. remontez dans le dossier parent (/var) en utilisant un chemin relatif**
 
-``cd ..``
+```cd ..```
+
 **3. retournez dans le dossier personnel**
 
-``cd ~``
+```cd ~```
+
 **4. revenez au dossier précédent (/var)sans utiliser de chemin**
-``cd -``
+
+```cd -```
+
 **5. essayez d’accéder au dossier /root; que se passe-t-il?**
-``cd /`` On ne peut pas y accèder car nous n'avons pas les droits sur le dossier (dossier du super utilisateur)
+
+```cd /``` On ne peut pas y accèder car nous n'avons pas les droits sur le dossier (dossier du super utilisateur)
+
 **6. essayez la commande sudo cd /root; que se passe-t-il? Explique**
 
 **7. à partir de votre dossier personnel, créez l’arborescence suivante**  

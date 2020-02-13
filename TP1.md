@@ -15,15 +15,19 @@ Dans le man taper ```/motRecherché```
 ``q``
 
 **4. Chaque section du manuel a une première page, qui présente le contenu de la section. Aﬀicher la première page de la section 6; de quoi parle cette section?**
+
 ``man 6 intro`` La page parle des jeux et des fonctionnalités amusante dispo sur l'OS.
 
 ### Navigation dans l’arborescence des fichiers
 **1. allez dans le dossier /var/log**
+
  ``cd /var/log/``
  
 **2. remontez dans le dossier parent (/var) en utilisant un chemin relatif**
+
 ``cd ..``
 **3. retournez dans le dossier personnel**
+
 ``cd ~``
 **4. revenez au dossier précédent (/var)sans utiliser de chemin**
 ``cd -``

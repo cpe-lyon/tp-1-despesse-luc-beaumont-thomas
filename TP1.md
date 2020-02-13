@@ -14,6 +14,7 @@
     Dans le man taper ```/motRecherché``` 
     
 **3. Comment quitte-t-on le manuel?**
+
     ``q`` 
     
 **4. Chaque section du manuel a une première page, qui présente le contenu de la section. Aﬀicher la première page de la section 6; de quoi parle cette section?**

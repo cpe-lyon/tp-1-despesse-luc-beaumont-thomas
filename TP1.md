@@ -69,3 +69,54 @@ On a une erreur expliquant que le dossier n'est pas vide.
 
 ``` rm -r Dossier2 ```
 
+### Commandes importantes
+
+**1. Quelle commande permet d’aﬀicher l’heure? A quoi sert la commandetime?**
+
+**2. Dans votre dossier personnel, tapez successivement les commandeslspuisla; que peut-on en déduiresur les fichiers commençant par un point?**
+
+**3. Où se situe le programmels?**
+
+**4. Essayez la commandell. Existe-t-il une entrée de manuel pour cette commande? Utilisez les com-mandesaliasoualiaspour en savoir plus sur la nature de cette commande.**
+
+**5. Quelle commande permet d’aﬀicher les fichiers contenus dans le dossier/bin?**
+
+**6. Que fait la commandels ..?**
+
+**7. Quelle commande donne le chemin complet du dossier courant?**
+
+**8. Que fait la commandeecho 'yo' > plopexécutée 2 fois?**
+
+**9. Que fait la commandeecho 'yo' >> plopexécutée 2 fois?**
+
+**10. A quoi sert la commandefile? Essayez la sur des fichiers de types différents.**
+
+**11. Créez un fichiertotoqui contient la chaîneHello Toto !; créer ensuite un lientitivers ce fichieravec la commandeln toto titi. Modifiez à présent le contenu detotoet aﬀichez le contenu detiti:qu’observe-t-on? Supprimez le fichiertoto; quelle conséquence cela a-t-il surtiti?**
+
+**12. Créez à présent un liensymboliquetutusurtitiavec la commandeln -s titi tutu. Modifiez lecontenu detiti; quelle conséquence pourtutu? Et inversement? Supprimez le fichiertiti; quelleconséquence cela a-t-il surtutu?**
+
+**13. Aﬀichez à l’écran le fichier/var/log/syslog. Quels raccourcis clavier permettent d’interrompre etreprendre le défilement à l’écran?**
+
+**14. Aﬀichez les 5 premières lignes du fichier/var/log/syslog, puis les 15 dernières, puis seulement leslignes 10 à 20.**
+
+**15. Que fait la commandedmesg | less?**
+
+**16. Aﬀichez à l’écran le fichier/etc/passwd; que contient-il? Quelle commande permet d’aﬀicher la pagede manuel de ce fichier?
+**
+
+**17. Aﬀichez seulement la première colonne triée par ordre alphabétique inverse**
+
+**18. Quelle commande nous donne le nombre d’utilisateurs ayant un compte sur cette machine (pas seule-ment les utilisateurs connectés)?**
+
+**19. Combien de pages de manuel comportent le mot-cléconversiondans leur description?**
+
+**20. A l’aide de la commandefind, recherchez tous les fichiers se nommantpasswdprésents sur la machine**
+
+**21. Modifiez la commande précédente pour que la liste des fichiers trouvés soit enregistrée dans le fichier~/list_passwd_files.txtet que les erreurs soient redirigées vers le fichier spécial/dev/null**
+
+**22. Dans votre dossier personnel, utilisez la commandegreppour chercher où est défini l’aliasllvuprécédemment**
+
+**23. Utilisez la commandelocatepour trouver le fichierhistory.log.**
+
+**24. Créer un fichier dans votre dossier personnel puis utilisez locate pour le trouver. Apparaît-il? Pourquoi?**
+

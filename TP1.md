@@ -3,12 +3,7 @@
 ### Manuel
 **1. A l’aide du manuel, identifiez le rôle de la commande which**
     ```$ man which```  
-    which : renvoie  le chemin des fichiers (ou liens) qui seraient exécutés
-           dans l'environnement courant si ses arguments avaient été donnés  comme
-           commandes  dans un interpréteur de commandes strictement conforme à PO‐
-           SIX. Pour ce faire, which cherche dans la variable  PATH  les  fichiers
-           exécutables  correspondant  aux  noms des arguments. which ne normalise
-           pas les chemins.
+which : renvoie  le chemin des fichiers (ou liens) qui seraient exécutés dans l'environnement courant si ses arguments avaient été donnés  comme commandes  dans un interpréteur de commandes strictement conforme à PO‐SIX. Pour ce faire, which cherche dans la variable  PATH  les  fichiers exécutables  correspondant  aux  noms des arguments. which ne normalise pas les chemins.
 
 **2. Quand on consulte une page du manuel, comment peut-on rechercher un terme (par exemple, chercherle terme option dans la page de manuel de which?**
     Dans le man taper ```/motRecherché``` 

@@ -71,25 +71,43 @@ On a une erreur expliquant que le dossier n'est pas vide.
 
 ### Commandes importantes
 
-**1. Quelle commande permet d’aﬀicher l’heure? A quoi sert la commandetime?**
+**1. Quelle commande permet d’aﬀicher l’heure? A quoi sert la commande time?**
 
-**2. Dans votre dossier personnel, tapez successivement les commandeslspuisla; que peut-on en déduiresur les fichiers commençant par un point?**
+```date``` La commande ```time``` sert à retourner le temps d'execution d'une commande. 
 
-**3. Où se situe le programmels?**
+**2. Dans votre dossier personnel, tapez successivement les commandes ls puis la; que peut-on en déduire sur les fichiers commençant par un point?**
 
-**4. Essayez la commandell. Existe-t-il une entrée de manuel pour cette commande? Utilisez les com-mandesaliasoualiaspour en savoir plus sur la nature de cette commande.**
+```la``` affiche en plus les fichier et dossier caché.
+
+**3. Où se situe le programme ls?**
+
+/usr/bin/ls
+
+**4. Essayez la commande ll. Existe-t-il une entrée de manuel pour cette commande? Utilisez les commandes alias ou alias pour en savoir plus sur la nature de cette commande.**
+ 
+ Non il n'y a pas de page de manuel car c'est un racourcis de la commande ```ls -l```
 
 **5. Quelle commande permet d’aﬀicher les fichiers contenus dans le dossier/bin?**
 
-**6. Que fait la commandels ..?**
+```ls /bin```
+
+**6. Que fait la commande ls ..?**
+
+Elle liste les fichier et dossier présent dans le repertoire parent du repertoire courant.
 
 **7. Quelle commande donne le chemin complet du dossier courant?**
 
-**8. Que fait la commandeecho 'yo' > plopexécutée 2 fois?**
+```pwd```
 
-**9. Que fait la commandeecho 'yo' >> plopexécutée 2 fois?**
+**8. Que fait la commande echo 'yo' > plop exécutée 2 fois?**
 
-**10. A quoi sert la commandefile? Essayez la sur des fichiers de types différents.**
+Elle remplace le contenu du fichier plop
+
+**9. Que fait la commande echo 'yo' >> plop exécutée 2 fois?**
+
+Elle écrit à la suite dans le fichier plop
+
+**10. A quoi sert la commande file? Essayez la sur des fichiers de types différents.**
 
 **11. Créez un fichiertotoqui contient la chaîneHello Toto !; créer ensuite un lientitivers ce fichieravec la commandeln toto titi. Modifiez à présent le contenu detotoet aﬀichez le contenu detiti:qu’observe-t-on? Supprimez le fichiertoto; quelle conséquence cela a-t-il surtiti?**
 

@@ -101,19 +101,27 @@ Elle liste les fichier et dossier présent dans le repertoire parent du repertoi
 
 **8. Que fait la commande echo 'yo' > plop exécutée 2 fois?**
 
-Elle remplace le contenu du fichier plop
+Elle remplace le contenu du fichier plop (en le créant si inexistant).
 
-**9. Que fait la commande echo 'yo' >> plop exécutée 2 fois?**
+**9. Que fait la commande echo 'yo' >> plop exécutée 2 fois?*
 
-Elle écrit à la suite dans le fichier plop
+Elle concatène à la suite dans le fichier plop
 
 **10. A quoi sert la commande file? Essayez la sur des fichiers de types différents.**
 
-**11. Créez un fichiertotoqui contient la chaîneHello Toto !; créer ensuite un lientitivers ce fichieravec la commandeln toto titi. Modifiez à présent le contenu detotoet aﬀichez le contenu detiti:qu’observe-t-on? Supprimez le fichiertoto; quelle conséquence cela a-t-il surtiti?**
+Elle retourne le type du fichier renseigné.
 
-**12. Créez à présent un liensymboliquetutusurtitiavec la commandeln -s titi tutu. Modifiez lecontenu detiti; quelle conséquence pourtutu? Et inversement? Supprimez le fichiertiti; quelleconséquence cela a-t-il surtutu?**
+**11. Créez un fichier toto qui contient la chaîne Hello Toto !; créer ensuite un lien titi vers ce fichier avec la commande ln toto titi. Modifiez à présent le contenu de toto et aﬀichez le contenu de titi: qu’observe-t-on? Supprimez le fichier toto; quelle conséquence cela a-t-il sur titi?**
+
+La modification de l'un entraine la modification de l'autre mais la suppression de l'un n'entraine pas la suppresion de l'autre.
+
+**12. Créez à présent un lien symbolique tutu sur titi avec la commande ln -s titi tutu. Modifiez lecontenu de titi; quelle conséquence pour tutu? Et inversement? Supprimez le fichiertiti; quelleconséquence cela a-t-il surtutu?**
+
+La modification ou suppresion de l'un entraine la modification ou suppression de l'autre.
 
 **13. Aﬀichez à l’écran le fichier/var/log/syslog. Quels raccourcis clavier permettent d’interrompre etreprendre le défilement à l’écran?**
+
+CTRL + S
 
 **14. Aﬀichez les 5 premières lignes du fichier/var/log/syslog, puis les 15 dernières, puis seulement leslignes 10 à 20.**
 

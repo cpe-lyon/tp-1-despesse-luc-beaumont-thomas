@@ -43,6 +43,13 @@ On ne peut pas y accèder car nous n'avons pas les droits sur le dossier (dossie
 
 **6. essayez la commande sudo cd /root; que se passe-t-il? Explique**
 
+Cela ne fonctionne pas car ```cd``` est une commande interne a l'OS est n'est pas présente dans les dossiers de la variable PATH de l'utilisateur.
+
 **7. à partir de votre dossier personnel, créez l’arborescence suivante**  
-## Exercice 3
+
+```
+mkdir -p {Dossier1,Dossier2/{Dossier2.1,Dossier2.2}}
+touch Dossier2/Dossier2.2/{fichier2,fichier3}
+touch Dossier1/fichier1
+```
 

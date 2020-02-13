@@ -53,3 +53,18 @@ $ touch Dossier2/Dossier2.2/{fichier2,fichier3}
 $ touch Dossier1/fichier1
 ```
 
+**8. revenez dans votre dossier personnel; à l’aide de la commande rm, essayez de supprimer Fichier1, puisDossier1; que se passe-t-il?**
+
+On ne peut pas supprimer un dossier avec la commande rm sans utiliser une option de forçage.
+
+**9. quelle commande permet de supprimer un dossier?**
+
+``` rmdir ```
+
+**10. que se passe-t-il quand on applique cette commande à Dossier2?**
+
+On a une erreur expliquant que le dossier n'est pas vide.
+
+**11. comment supprimer en une seule commande Dossier2 et son contenu?**
+``` rm -r Dossier2 ```
+

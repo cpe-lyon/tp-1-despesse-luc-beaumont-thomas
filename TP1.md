@@ -135,7 +135,7 @@ Pour afficher les lignes 10 à 20: ```sed -n '10,20p' /var/log/syslog```
 
 **15. Que fait la commande dmesg | less?**
 
-La commande '''dmesg''' affiche le buffer du noyau. L'option '''less''' permet d'afficher le contenu page par page et permet de naviguer.
+La commande ''''dmesg'''' affiche le buffer du noyau. L'option ''''less'''' permet d'afficher le contenu page par page et permet de naviguer.
 
 **16. Aﬀichez à l’écran le fichier /etc/passwd; que contient-il? Quelle commande permet d’aﬀicher la page de manuel de ce fichier?**
 

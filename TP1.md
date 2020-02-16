@@ -123,12 +123,15 @@ La modification ou suppresion de l'un entraine la modification ou suppression de
 
 CTRL + S
 
-**14. Aﬀichez les 5 premières lignes du fichier/var/log/syslog, puis les 15 dernières, puis seulement leslignes 10 à 20.**
+**14. Aﬀichez les 5 premières lignes du fichier/var/log/syslog, puis les 15 dernières, puis seulement les lignes 10 à 20.**
 
-**15. Que fait la commandedmesg | less?**
+Pour afficher les 5 premières lignes: ```head -5 /var/log/syslog```
+Pour afficher les 15 dernières lignes: ```tail -15 /var/log/syslog```
+Pour afficher les lignes 10 à 20: ```sed -n '10,20p' /var/log/syslog```
 
-**16. Aﬀichez à l’écran le fichier/etc/passwd; que contient-il? Quelle commande permet d’aﬀicher la pagede manuel de ce fichier?
-**
+**15. Que fait la commande dmesg | less?**
+
+**16. Aﬀichez à l’écran le fichier/etc/passwd; que contient-il? Quelle commande permet d’aﬀicher la pagede manuel de ce fichier?**
 
 **17. Aﬀichez seulement la première colonne triée par ordre alphabétique inverse**
 

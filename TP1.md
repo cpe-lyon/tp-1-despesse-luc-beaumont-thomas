@@ -182,7 +182,7 @@ On ne trouve pas le fichier créé dans le dossier personnel avec la commande "l
 
 ## Exercice 4
 
-**3. Le fichier .bashrc est lu au démarrage du shell; pour le recharger, il faudrait donc se déconnecter puis se reconnecter; mais il existe un autre moyen : la commande source .bashrc. Testez-la, l’invite de commande devrait immédiatement passer en couleurs. **
+**3. Le fichier .bashrc est lu au démarrage du shell; pour le recharger, il faudrait donc se déconnecter puis se reconnecter; mais il existe un autre moyen : la commande source .bashrc. Testez-la, l’invite de commande devrait immédiatement passer en couleurs.**
 
 La commande ```source .bashrc``` permet de recharger le fichier .bashrc.
 

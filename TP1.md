@@ -73,7 +73,7 @@ On a une erreur expliquant que le dossier n'est pas vide.
 
 **1. Quelle commande permet d’aﬀicher l’heure? A quoi sert la commande time?**
 
-La commande ```date``` 
+La commande ```date``` permet d'afficher l'heure.
 
 La commande ```time``` sert à retourner le temps d'execution d'une commande. 
 
@@ -105,7 +105,7 @@ Elle liste les fichier et dossier présent dans le repertoire parent du repertoi
 
 Elle remplace le contenu du fichier plop (en le créant si inexistant).
 
-**9. Que fait la commande echo 'yo' >> plop exécutée 2 fois?*
+**9. Que fait la commande echo 'yo' >> plop exécutée 2 fois?**
 
 Elle concatène à la suite dans le fichier plop
 

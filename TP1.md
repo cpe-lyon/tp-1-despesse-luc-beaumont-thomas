@@ -135,19 +135,41 @@ Pour afficher les lignes 10 à 20: ```sed -n '10,20p' /var/log/syslog```
 
 **15. Que fait la commande dmesg | less?**
 
-**16. Aﬀichez à l’écran le fichier/etc/passwd; que contient-il? Quelle commande permet d’aﬀicher la pagede manuel de ce fichier?**
+La commande '''dmesg''' affiche le buffer du noyau. L'option '''less''' permet d'afficher le contenu page par page et permet de naviguer.
+
+**16. Aﬀichez à l’écran le fichier /etc/passwd; que contient-il? Quelle commande permet d’aﬀicher la page de manuel de ce fichier?**
+
+Le fichier "/etc/passwd" contient les mots de passe chiffrés des utilisateurs.
+
+La commande '''man passwd''' permet d'afficher la page de manuel de ce fichier.
 
 **17. Aﬀichez seulement la première colonne triée par ordre alphabétique inverse**
 
+Pour afficher la première colonne du fichier "/etc/passwd" triée par ordre alphabétique inverse, il faut taper respectivement les 2 commandes suivantes :
+
+'''cut -c1 /etc/passwd > test.txt'''
+
+'''sort -r test.txt'''
+
 **18. Quelle commande nous donne le nombre d’utilisateurs ayant un compte sur cette machine (pas seule-ment les utilisateurs connectés)?**
 
-**19. Combien de pages de manuel comportent le mot-cléconversiondans leur description?**
+'''wc -l /etc/test.txt''' (permet de compter le nombre de lignes du fichier créé dans la question précédante et donc le nombre d'utilisateurs.)
 
-**20. A l’aide de la commandefind, recherchez tous les fichiers se nommantpasswdprésents sur la machine**
+**19. Combien de pages de manuel comportent le mot-clé conversion dans leur description?**
+
+'''man -k conversion | wc -1'''
+
+**20. A l’aide de la commande find, recherchez tous les fichiers se nommant passwd présents sur la machine**
+
+
+'''find -name passwd'''
 
 **21. Modifiez la commande précédente pour que la liste des fichiers trouvés soit enregistrée dans le fichier~/list_passwd_files.txtet que les erreurs soient redirigées vers le fichier spécial/dev/null**
 
-**22. Dans votre dossier personnel, utilisez la commandegreppour chercher où est défini l’aliasllvuprécédemment**
+'''find -name passwd > list_passwd_files.text 2 > /dev/null'''
+
+**22. Dans votre dossier personnel, utilisez la commande grep pour chercher où est défini l’alias ll vu précédemment**
+
 
 **23. Utilisez la commandelocatepour trouver le fichierhistory.log.**
 

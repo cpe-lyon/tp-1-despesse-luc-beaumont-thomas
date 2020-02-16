@@ -73,7 +73,9 @@ On a une erreur expliquant que le dossier n'est pas vide.
 
 **1. Quelle commande permet d’aﬀicher l’heure? A quoi sert la commande time?**
 
-```date``` La commande ```time``` sert à retourner le temps d'execution d'une commande. 
+La commande ```date``` 
+
+La commande ```time``` sert à retourner le temps d'execution d'une commande. 
 
 **2. Dans votre dossier personnel, tapez successivement les commandes ls puis la; que peut-on en déduire sur les fichiers commençant par un point?**
 
@@ -126,7 +128,9 @@ CTRL + S
 **14. Aﬀichez les 5 premières lignes du fichier/var/log/syslog, puis les 15 dernières, puis seulement les lignes 10 à 20.**
 
 Pour afficher les 5 premières lignes: ```head -5 /var/log/syslog```
+
 Pour afficher les 15 dernières lignes: ```tail -15 /var/log/syslog```
+
 Pour afficher les lignes 10 à 20: ```sed -n '10,20p' /var/log/syslog```
 
 **15. Que fait la commande dmesg | less?**

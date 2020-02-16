@@ -182,5 +182,10 @@ On ne trouve pas le fichier créé dans le dossier personnel avec la commande "l
 
 ## Exercice 4
 
+**3. Le fichier .bashrc est lu au démarrage du shell; pour le recharger, il faudrait donc se déconnecter puis se reconnecter; mais il existe un autre moyen : la commande source .bashrc. Testez-la, l’invite de commande devrait immédiatement passer en couleurs. **
 
+La commande ```source .bashrc``` permet de recharger le fichier .bashrc.
 
+**4. Les couleurs par défauts (surtout celle du dossier courant) ne sont pas très visibles. Dans .bashrc, cherchez les lignes commençant par PS1=; elles indiquent la mise en forme de l’invite de commande (selon que l’on est en couleurs ou non).**
+
+```\e[35m[\A] - ${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;36m\]\w\[\033[00m\]\$```
